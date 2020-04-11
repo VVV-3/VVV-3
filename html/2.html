@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="../css/sht.css" rel="stylesheet" type="text/css">
+</head>
+<body onload="frm_make()">
+    <div class="b">
+        <table id="tble">
+            <tr>
+                <th> NAME </th>
+                <th> SKILL </th>
+                <th> LEVEL </th>
+                <th> REMARKS </th>
+           </tr>
+        </table>
+    </div>
+    <div class="my_form">
+        <div class="tfield">
+            <label for="my_name"> NAME: </label>
+            <input type="text" name="my_name">
+        </div>
+        <div class="tfield">
+            <label for="my_name"> SKILL: </label>
+            <input type="text" name="my_skill">
+        </div>
+        <div class="tfield">
+            <label for="my_level"> LEVEL: </label>
+            <select name="my_level">
+                <option name="beginner"> BEGINNER </option>
+                <option name="intermediate"> INTERMEDIATE </option>
+                <option name="proficient"> PROFICIENT </option>
+            </select>
+        </div>
+        <div class="tfield">
+            <label for="my_comment"> COMMENT: </label>
+            <textarea name="my_comment"> </textarea>
+        </div>
+    </div>
+    <div class="my_form">
+        <button class="b" onclick="frm_add()"> SUBMIT </button>
+    </div>
+    <script src="../js/form.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    background-position: center;
+    color: grey;
+    font-size: calc(10px + 1.5vh);
+    font-family: 'Roboto', sans-serif;
+}
+.a {
+    margin-top: 10vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px;
+    border-color: black;
+}
+.b {
+    margin-top: 1vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px;
+    border-color: black;
+}
+.i {
+    border-radius: 15px;
+}
+#tble, th, td{
+    border-color: black;
+    border: 1px solid black;
+}
+
+#tble {
+    
+    width: 80vw;
+}
+
+.my_form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tfield {
+    display: flex;
+    flex-direction: column;
+}
